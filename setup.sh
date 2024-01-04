@@ -50,7 +50,7 @@ data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date |
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mTelegram${NC} t.me/nixy_store"
+    echo -e "      \033[0;36mTelegram${NC} t.me/nixy_store_id"
     echo -e "      ${GREEN}WhatsApp${NC} wa.me/628*********"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
