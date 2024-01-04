@@ -25,10 +25,10 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "  Welcome To Tomket VPN Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
+echo -e "  Welcome To NIXY VPN Script Installer ${YELLOW}(${NC}${green} Stable Edition ${NC}${YELLOW})${NC}"
 echo -e "     This Will Quick Setup VPN Server On Your Server"
-echo -e "         Auther : ${green} TomketVPN ${NC}${YELLOW}(${NC} ${green}Tomket VPN ${NC}${YELLOW})${NC}"
-echo -e "       © Recode By Tomket Store ${YELLOW}(${NC} 2023 ${YELLOW})${NC}"
+echo -e "         Author : ${green} DIZZY ${NC}${YELLOW}(${NC} ${green}Project ${NC}${YELLOW})${NC}"
+echo -e "       © Recode By NIXY Store ${YELLOW}(${NC} 2024 ${YELLOW})${NC}"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 5
@@ -36,7 +36,7 @@ sleep 5
 ipsaya=$(wget -qO- ipinfo.io/ip)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 #date_list=$(date +"%Y-%m-%d" -d "$data_server")
-#data_ip="https://raw.githubusercontent.com/wingshope/vip/main/izin"
+#data_ip="https://raw.githubusercontent.com/nixyproject-cfd/nixystore/main/izin"
 #checking_sc() {
   useexp=$(wget -qO- $data_ip | grep $ipsaya | awk '{print $3}')
   if [[ $date_list < $useexp ]]; then
@@ -50,7 +50,7 @@ data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date |
     echo -e "   \033[0;33mYour VPS${NC} $ipsaya \033[0;33mHas been Banned${NC}"
     echo -e "     \033[0;33mBuy access permissions for scripts${NC}"
     echo -e "             \033[0;33mContact Admin :${NC}"
-    echo -e "      \033[0;36mTelegram${NC} t.me/ohmyvillain"
+    echo -e "      \033[0;36mTelegram${NC} t.me/nixy_store"
     echo -e "      ${GREEN}WhatsApp${NC} wa.me/628*********"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     exit
@@ -111,9 +111,9 @@ clear
 #########################
 # USERNAME
 rm -f /usr/bin/user
-#username=$(curl https://raw.githubusercontent.com/wingshope/vip/main/izin | grep $MYIP | awk '{print $2}')
+#username=$(curl https://raw.githubusercontent.com/nixyproject-cfd/nixystore/main/izin | grep $MYIP | awk '{print $2}')
 #echo "$username" >/usr/bin/user
-#expx=$(curl https://raw.githubusercontent.com/wingshope/vip/main/izin | grep $MYIP | awk '{print $3}')
+#expx=$(curl https://raw.githubusercontent.com/nixyproject-cfd/nixystore/main/izin | grep $MYIP | awk '{print $3}')
 echo "$expx" >/usr/bin/e
 # DETAIL ORDER
 username=$(cat /usr/bin/user)
@@ -137,7 +137,7 @@ mai="datediff "$Exp" "$DATE""
 #Info="(${green}Active${NC})"
 #Error="(${RED}ExpiRED${NC})"
 #today=`date -d "0 days" +"%Y-%m-%d"`
-#Exp1=$(curl https://raw.githubusercontent.com/wingshope/vip/main/izin | grep $MYIP | awk '{print $4}')
+#Exp1=$(curl https://raw.githubusercontent.com/nixyproject-cfd/nixystore/main/izin | grep $MYIP | awk '{print $4}')
 #if [[ $today < $Exp1 ]]; then
 #sts="${Info}"
 #else
@@ -146,7 +146,7 @@ mai="datediff "$Exp" "$DATE""
 echo -e "\e[32mloading...\e[0m"
 clear
 # REPO    
-    REPO="https://raw.githubusercontent.com/Muslih228/source/main/"
+    REPO="https://raw.githubusercontent.com/nixyproject-cfd/nixystore/main/"
 
 ####
 start=$(date +%s)
@@ -340,8 +340,8 @@ clear
     echo -e "$Password\n$Password\n"|passwd $Username > /dev/null 2>&1
     usermod -aG sudo $Username > /dev/null 2>&1
 
-    #CHATID="5008116231"
-    KEY="6638955090:AAESojtt1ZPmuTNESoNHfgyPdU92Ue7d4H4"
+    #CHATID="5289385265"
+    KEY="6525206851:AAEK0Wcrr86LiFOe8M0E4Vn9xH0qIPN8rqE"
     TIME="10"
     URL="https://api.telegram.org/bot$KEY/sendMessage"
     TEXT="Installasi VPN Script Stable V3.0
@@ -362,7 +362,7 @@ clear
     <code>User Script:</code> <code>$username</code>
     <code>Exp Script :</code> <code>$exp</code>
     ============================
-    (C) Copyright 2023 By Tomket
+    (C) Copyright 2023 By NIXY
     ============================
 "
 
@@ -1084,7 +1084,7 @@ rm -rf /root/domain
 secs_to_human "$(($(date +%s) - ${start}))"
 echo ""
 echo " "
-echo "=====================-[ TOMKET VPN ]-===================="
+echo "=====================-[ NIXY STORE ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
@@ -1118,7 +1118,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "=====================-[ TOMKET VPN ]-===================="
+echo "=====================-[ NIXY STORE ]-===================="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
