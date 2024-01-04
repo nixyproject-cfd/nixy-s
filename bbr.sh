@@ -1,6 +1,6 @@
 #!/bin/bash
-# Edition : Stable Edition V3.0
-# Auther  : Mbah Wings
+# Edition : Stable Edition V0.9
+# Auther  : NIXY Store
 # (C) Copyright 2023
 # =========================================
 
