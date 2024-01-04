@@ -1,16 +1,16 @@
 #!/bin/bash
 # Edition : Stable Edition V3.0
-# Auther  : Tomket store 
+# Auther  : NIXY Store
 # (C) Copyright 2023
 # =========================================
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
 apt install jq curl -y >/dev/null 2>&1
-read -rp "Sub Domain (Contoh: tomket010): " -e sub
-DOMAIN=tunneling.email
-SUB_DOMAIN=${sub}.tunneling.email
-CF_ID=newagoez@gmail.com
-CF_KEY=61dcf048264d5f9a47b379eecffb72d3bb5df
+read -rp "Sub Domain (Contoh: dizzy): " -e sub
+DOMAIN=nixystore.my.id
+SUB_DOMAIN=${sub}.nixystore.my.id
+CF_ID=sariphidayatuloh366@gmail.com
+CF_KEY=aa35d9e3ed017153caeffcbc14ef9d30fd5c7
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
 echo "Updating DNS for ${SUB_DOMAIN}..."
